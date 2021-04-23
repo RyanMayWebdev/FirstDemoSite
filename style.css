@@ -29,8 +29,8 @@ body{
 }
 
 .profileimg{
-    width:fit-content;
-    height:fit-content;
+    width:max-content;
+    height:max-content;
     border-width:5px;
     border-radius:50%;
     border-color:cadetblue;
