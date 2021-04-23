@@ -1,9 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&display=swap');
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size:22pt;
+}
 .navbar{
   display:flex;
   justify-content:flex-end;
-  background-color:cadetblue;
-  color:antiquewhite;
+  background-color:#5eaaa8;
+  color:#f8f1f1;
   margin-top:0px;
   padding:0px;
   position:fixed;
@@ -13,6 +17,7 @@
 }
 
 .navbar a{
+    color:#f8f1f1;
     display:inline-block;
     padding:10px 20px 10px 20px;
     
@@ -21,16 +26,28 @@
 
 .navbar a:hover{
     text-decoration:underline;
-    text-decoration-color:cornsilk;
-    background-color:lightblue;
+    text-decoration-color:#eb5e0b;
+    background-color:#5eaaa8;
 }
 body{
-    background-image:linear-gradient(45deg, antiquewhite, cornsilk);
+    background-color:#fde8cd;
+    color:#433520;
+    
+}
+body a{
+    text-decoration:none;
+}
+body a:hover{
+    text-decoration:underline;
+    text-decoration-color:#eb5e0b;
+}
+hr{
+    border-top:1px solid #eb5e0b;
 }
 
 .profileimg{
-    width:max-content;
-    height:max-content;
+    width:200px;
+    height:200px;
     border-width:5px;
     border-radius:50%;
     border-color:cadetblue;
