@@ -94,6 +94,11 @@ hr{
     margin-left:10px;
     margin-right:10px;
 }
+@media (max-width: 500px){
+    .skills{
+        flex-direction:column;
+    }
+}
     
 
 
