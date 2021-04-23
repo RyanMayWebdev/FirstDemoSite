@@ -75,6 +75,7 @@ hr{
 @media (max-width:500px){
     .welcomeFlex{
         display:inline-block;
+        margin-top:75px;
     }
     .profileimg{
         margin-right:0px;
