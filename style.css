@@ -97,16 +97,25 @@ hr:hover{
     flex:1 1 auto;
     
     
+    
 }
 
 @media (max-width:500px){
     .welcomeFlex{
-        display:inline-block;
-        margin-top:75px;
-        margin-left:75px;
+        height:min-content;
+        flex-direction: column;
+        padding:25px;
+        margin-top:50px;
+        margin-left:50px;
+        margin-right:20px;
+        
+        
     }
     .profileimg{
         margin-right:0px;
+    }
+    .flexcontainer{
+        height:min-content;
     }
 
 }
@@ -126,19 +135,7 @@ hr:hover{
     
 }
 
-.skills{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    width:100vw;
-    flex-wrap:wrap;
-    
-}
-@media (max-width: 500px){
-    .skills{
-        flex-direction:column;
-    }
-}
+
     
 .hobbyList{
     margin:15px;
