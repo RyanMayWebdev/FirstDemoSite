@@ -2,34 +2,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
 <body>
-    <h1>Contact Me</h1>
-    <hr>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact Me</a>
+        
+    </nav>
+
+    <div class="flexcontainer">
+        <br>
+        <h1>Contact Me</h1>
 
 
-    <h3>Leave me a message!</h3>
+
+        <h3>Leave me a message!</h3>
     
-    <form class="" action="mailto:ryan777may@gmail.com" method="post" enctype="text/plain"> <!-- action mailto will open an email app to send this to the specified email. Enctype is the encryption type so that the message wont havew strange symbols etc in it.-->
-        <label>Your name:</label>
-        <input type="text" name="username" placeholder="ex. John Smith"> <!-- inputs should have names to identify the data. You can then use javascript to process this data.-->
-        <label>Your email:</label>
-        <input type="email" name="email" placeholder="example@email.com">
-        <br><br>
-        <label>Your message:</label><br>
-        <textarea name="message" rows="6" columns="10"></textarea><br> <!--Makes a message box, set rows and columns for the size of the text box. This can be altered later in the browser by the user. Make sure to use a closing tag-->
-        <label for="email consent">Do you agree to be contacted by email?</label>
-        <input type="checkbox"><br>
-        <input type="submit">
+        <form class="" action="mailto:ryan777may@gmail.com" method="post" enctype="text/plain"> <!-- action mailto will open an email app to send this to the specified email. Enctype is the encryption type so that the message wont havew strange symbols etc in it.-->
+            <label>Your name:</label>
+            <input type="text" name="username" placeholder="ex. John Smith"> <!-- inputs should have names to identify the data. You can then use javascript to process this data.-->
+            <label>Your email:</label>
+            <input type="email" name="email" placeholder="example@email.com">
+            <br><br>
+            <label>Your message:</label><br>
+            <textarea name="message" rows="6" columns="10"></textarea><br> <!--Makes a message box, set rows and columns for the size of the text box. This can be altered later in the browser by the user. Make sure to use a closing tag-->
+            <label for="email consent">Do you agree to be contacted by email?</label>
+            <input type="checkbox"><br>
+            <input type="submit">
 
-    </form>
+        </form>
 
-    
-
-    <a href="index.html">Home</a>
+    </div>
 </body>
 </html>

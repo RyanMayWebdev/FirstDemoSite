@@ -3,7 +3,20 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size:22pt;
     max-width:100vw;
+    background-color:#fde8cd;
+    color:#eb5e0b;
+    
 }
+
+body a{
+    text-decoration:none;
+}
+
+body a:hover{
+    text-decoration:underline;
+    text-decoration-color:#eb5e0b;
+}
+
 .navbar{
   display:flex;
   justify-content:flex-end;
@@ -30,21 +43,19 @@ body{
     text-decoration-color:#eb5e0b;
     background-color:#a3d2ca;
 }
-body{
-    background-color:#fde8cd;
-    color:#433520;
-    
+
+a:visited{
+    color:#025955;
 }
-body a{
-    text-decoration:none;
-}
-body a:hover{
-    text-decoration:underline;
-    text-decoration-color:#eb5e0b;
-}
+
 h1, h3 {
     color:#5eaaa8;
 }
+
+td, p, li {
+   color: #eb5e0b;
+}
+
 hr{
     
     width:2%;
@@ -54,6 +65,11 @@ hr{
     border-bottom-color:#eb5e0b;
     opacity:0.5;
     
+}
+
+hr:hover{
+    opacity:0.7;
+    transform:translateY(-5px);
 }
 
 .tables{
@@ -122,7 +138,9 @@ hr{
     }
 }
     
-
+.hobbyList{
+    margin:15px;
+}
 
 .welcomeFade{
     animation-name:welcomeFade;
