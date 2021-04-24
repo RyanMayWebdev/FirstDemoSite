@@ -76,6 +76,7 @@ hr{
     .welcomeFlex{
         display:inline-block;
         margin-top:75px;
+        margin-left:75px;
     }
     .profileimg{
         margin-right:0px;
@@ -93,6 +94,7 @@ hr{
     flex-direction: column;
     flex:1 1 auto;
     flex-basis: 0;
+    margin-left:20px;
     
 }
 
