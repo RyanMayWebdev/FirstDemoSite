@@ -42,12 +42,22 @@ body a:hover{
     text-decoration:underline;
     text-decoration-color:#eb5e0b;
 }
+h1, h3 {
+    color:#5eaaa8;
+}
 hr{
-    border-top:1px solid #eb5e0b;
+    
+    width:2%;
+    border-style:none ;
+    border-bottom-style: dotted;
+    border-bottom-width:7px;
+    border-bottom-color:#eb5e0b;
+    opacity:0.5;
+    
 }
 
 .tables{
-    border-spacing:10px;
+    border-spacing:20px;
 }
 
 .profileimg{
