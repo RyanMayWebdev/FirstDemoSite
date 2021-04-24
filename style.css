@@ -111,10 +111,11 @@ hr:hover{
 
 }
 
+
 .flexcontainer{
     
-    max-height:100%;
-    height:100vh;
+    
+    height:max-content;
     display:flex;
     justify-content: space-around;
     align-items: center;
