@@ -114,7 +114,7 @@ hr:hover{
 .flexcontainer{
     
     max-height:100%;
-    height:100%;
+    height:100vh;
     display:flex;
     justify-content: space-around;
     align-items: center;
